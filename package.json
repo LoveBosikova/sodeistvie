@@ -1,0 +1,19 @@
+{
+  "name": "sodeistvie",
+  "version": "1.0.0",
+  "description": "A website about human rhights",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveBosikova/sodeistvie.git"
+  },
+  "author": "Liubov Bosikova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LoveBosikova/sodeistvie/issues"
+  },
+  "homepage": "https://github.com/LoveBosikova/sodeistvie#readme"
+}

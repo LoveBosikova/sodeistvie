@@ -1,0 +1,42 @@
+// Our SCSS styles
+@import "../sass/colors"
+@import "../sass/mixins"
+
+body
+	box-sizing: border-box
+	min-width: 0
+	background-color: $blacK
+	color: $itemColor
+	
+*,
+* ::before,
+* ::after
+	box-sizing: inherit
+	margin: 0
+	min-width: inherit
+	font-optical-sizing: auto
+
+li
+	list-style-type: none
+
+.header
+	padding-top: 1rem
+	&__container
+		@include flex-center-space-around
+	&__logo-holder
+		@include flex-center-center
+	&__menu-holder
+		display: flex
+		flex-basis: 60%
+	&__menu
+		width: 100%
+		display: flex
+		justify-content: space-evenly
+		flex: 80%
+	&__socials
+		display: flex
+	&__logo
+		midth: 70px
+		height: 70px
+		min-midth: 70px
+		min-height: 70px
